@@ -1,0 +1,16 @@
+{
+  "name": "canvas-maze",
+  "description": "A Module for Creating Maze Images w/ Canvas.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "UNLICENCED",
+  "scripts": {
+    "example": "rm -rf images; mkdir images; node example.js"
+  },
+  "dependencies": {
+    "canvas": "^2.3.1",
+    "chalk": "^2.4.2",
+    "cuid": "^2.1.6",
+    "maze-gen": "^1.0.3"
+  }
+}
